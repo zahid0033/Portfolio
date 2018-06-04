@@ -1,0 +1,364 @@
+body{
+    background: url(../images/back2.jpg); 
+    font-family: 'Roboto Slab', serif;
+/*    font-family: 'Josefin Slab', serif;*/
+    
+/*    background-color: #AED581;*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(min-width:900px){
+.container{
+    width: 1000px;
+    background: #fff;
+    }
+}
+.heading{
+    border: 2px solid #fff;
+    width: 200px;
+    text-align: center;
+    background: #aed57c;
+    border-radius: 4px;
+    transform: rotate(-8deg);
+    box-shadow: 4px 4px 2px #908a8a;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+.heading_shade{
+    top: 128%;
+    width: 0;
+    height: 11px;
+    left: 2%;
+    z-index: -1;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    margin-bottom: 5em;
+    transition: .9s;
+}
+/*
+.heading:before{
+    content: '';
+    position: absolute;
+    top: 128%;
+    width: 99%;
+    height: 11px;
+    left: 2%;
+    z-index: -1;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+}
+*/
+.heading p{
+    font-size: 15px;
+    padding-top: 13px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    text-transform:uppercase
+}
+.effect:hover .heading_shade{
+    width: 23%;
+}
+
+/*  navbar */
+.navbar-default{
+    background: transparent;
+    border-color: transparent
+}
+/* ********  me ***********  */
+#me{
+    margin-top: 3em;
+}
+#me{
+    background: url(../images/me.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 94%;
+}
+.me{
+    height: 500px;
+    position: relative
+}
+.me:before{
+    content: "";
+    position: absolute;
+    top: 97.5%;
+    width: 80%;
+    height: 5%;
+    left: 9%;
+    opacity: 1;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 80%);
+}
+.overlay img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/*
+.overlay{
+    position: absolute;
+    width: 70.2%;
+    height: 78.5%;
+    top: 0;
+    left: 15%;
+    background-color: rgba(118, 224, 169, 0.4);
+}
+*/
+.overlay_text{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-17%,-50%);
+    /* text-align: center; */
+    text-shadow: 2px 3px #42c0ff;
+    text-transform: uppercase;
+}
+.overlay_text h1{
+    color: #ffffff;
+    font-size: 65px;
+    line-height: 1em;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.overlay_text h3{
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 1.;
+    letter-spacing: 6px;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+.overlay_text p{
+    font-size: 27px;
+    font-weight: 700;
+    color: #42c0ff;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px #fff;
+}
+/********* about me ***********/
+#about_me{
+    padding-top:  5em;
+    padding-bottom: 5em;
+    background: #fff;
+}
+.about_left p{
+  line-height: 1.8em
+}
+.about_right span{
+    color: #aed57c;
+    line-height: 40px;
+}
+.about_1{
+    margin-top: 3em
+}
+.about_1 li{
+/*     border: 1px solid;*/
+    border-radius: 4px;
+    margin-left: 1em;
+}
+.about_1 li i{
+    font-size: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    padding-top: 6px;
+    color: #fff;
+    text-shadow: 2px 3px #717171;
+}
+.facebook{
+    background: #3b5998;
+}
+.twitter{
+    background: #55ACEE;
+}
+.linkdin{
+    background: #4875B4;
+}
+.instagram{
+    background: #4E433C;
+}
+.google{
+    background: #dd4b39;
+}
+
+/* *********** skills ********** */
+#skills{
+    padding-top:  5em;
+    padding-bottom: 5em;
+    background: #fff;
+}
+.skill h2{
+    color: #aed57c;
+    font-weight: 700;
+}
+/* ********** portfolio ********** */
+#portfolio{
+    padding-top:  5em;
+    padding-bottom: 5em;
+    background: #fff;
+}
+*{
+    
+}
+.isotope{
+    background: url(../images/llllll.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1em 0;
+    
+}
+.isotope ul{
+    list-style: none;
+    
+}
+.isotope ul li{
+    border-bottom: 1px solid green;
+    margin-bottom: 1em;
+    color: #aed57c;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+.grid{
+    
+}
+.grid-item{
+    transition: .5s
+}
+.grid-item:hover{
+    transform: scale(.9);
+    
+}
+.grid a{
+    display: block
+    width: 200px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.grid a img{
+    float: left;
+    
+
+}
+/* ******** education ******* */
+#education{
+    padding-top:  5em;
+    padding-bottom: 5em;
+    background: #fff;
+}
+.education{
+    margin-bottom: 4em
+}
+.education span{
+    border: 1px solid #aed57c;
+    background: #aed57c;
+    color: #fff;
+    padding: 3px 10px;
+}
+.education article{
+        margin-top: 1em;
+}
+.logo{
+    position: relative;
+}
+.logo img{
+    transition: .5s;
+}
+.logo:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 90%;
+    height: 11px;
+    left: 5%;
+    z-index: -1;
+    opacity: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    transition: .2s;
+}
+.education:hover .logo img,
+.education:hover .logo:before{
+
+    transform: translateY(-10%);
+    opacity: 1;
+}
+/************ counter *********** */
+
+#counter{
+    background: url(../images/apple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+.service{
+    position: relative;
+    color: #fff;
+    height: 450px;
+    padding-top: 20px;
+}
+.service:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(63, 72, 67, 0.53);
+}
+.service_heading{
+    position: relative;
+    top: 19%;
+}
+.service_heading:after{
+    content: "";
+    position: absolute;
+    width: 20%;
+    bottom: -18px;
+    left: 40%;
+    transform: translateX(0%);
+    border-bottom: 2px solid #fff;
+}
+.service_heading p{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.service ul{
+    position: relative;
+    top: 30%;
+}
+
+.count{
+        font-size: 25px;
+}
+.count h2{
+    color: #fff;
+        font-size: 35px;
+}
+    
+/* ******** Contact ********** */
+#contact{
+    padding-top:  5em;
+    padding-bottom: 2em;
+    margin-bottom: 3em;
+    background: #fff;
+}
+.others li{
+/*    border: 1px solid;*/
+    border-radius: 4px;
+    margin-left: 1em
+}
+.others li a{
+    
+}
+.others li a i{
+    font-size: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    padding-top: 6px;
+    color: #fff;
+    text-shadow: 2px 3px #717171;
+}
+

@@ -1,0 +1,18 @@
+    
+ .stats{
+    overflow: hidden;
+    background: #444444;
+    color: #fff;
+    text-align: center;
+    padding: 3em 0
+  
+ }
+.stats li:nth-child(3) h2{position: relative;}
+.stats li:nth-child(3) h2:after{
+    position: absolute;
+    content: "+";
+    top: 0px; 
+  }
+ .stats li p{font-size: 18px;color: #fff} 
+
+ 
